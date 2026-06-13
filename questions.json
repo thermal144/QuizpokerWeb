@@ -1,0 +1,1603 @@
+[
+  {
+    "id": "q0001",
+    "category": "Bildungslücke",
+    "type": "normal",
+    "question": "Welche Farbe hat der Mantel der englischen Königswache im Winter",
+    "answers": [],
+    "correct": "Grau"
+  },
+  {
+    "id": "q0002",
+    "category": "Bildungslücke",
+    "type": "normal",
+    "question": "Welches Land hat die meisten Zeitzonen?",
+    "answers": [
+      "China",
+      "Frankreich",
+      "England",
+      "Russland"
+    ],
+    "correct": "Frankreich"
+  },
+  {
+    "id": "q0003",
+    "category": "Bildungslücke",
+    "type": "normal",
+    "question": "In welchem Land ist die Lebenserwartung am Höchsten?",
+    "answers": [
+      "Japan",
+      "Finnland",
+      "Vatikan",
+      "Monaco"
+    ],
+    "correct": "Monaco"
+  },
+  {
+    "id": "q0004",
+    "category": "Bildungslücke",
+    "type": "normal",
+    "question": "Welche Sprache hat die meisten Muttersprachler?",
+    "answers": [],
+    "correct": "Spanisch"
+  },
+  {
+    "id": "q0005",
+    "category": "Bildungslücke",
+    "type": "normal",
+    "question": "Welches Land hat den höchsten Pro-Kopf Verbrauch von Kaffee?",
+    "answers": [],
+    "correct": "Finnland"
+  },
+  {
+    "id": "q0006",
+    "category": "Bildungslücke",
+    "type": "normal",
+    "question": "Die Nationalhymne welchen Landes hat keinen Text?",
+    "answers": [
+      "Spanien",
+      "Griechenland",
+      "Brasilien",
+      "Russland"
+    ],
+    "correct": "Spanien"
+  },
+  {
+    "id": "q0007",
+    "category": "Bildungslücke",
+    "type": "normal",
+    "question": "Woher kommt Banksy?",
+    "answers": [
+      "Valencia",
+      "Detroit",
+      "Bristol",
+      "Dubrovnik"
+    ],
+    "correct": "Bristol"
+  },
+  {
+    "id": "q0008",
+    "category": "Bildungslücke",
+    "type": "normal",
+    "question": "Wo fanden die ersten modernen Olympischen Spiele statt?",
+    "answers": [],
+    "correct": "Athen"
+  },
+  {
+    "id": "q0009",
+    "category": "Bildungslücke",
+    "type": "normal",
+    "question": "Welche Farbe findet man nicht auf dem klassischen Roulette?",
+    "answers": [
+      "Schwarz",
+      "Grün",
+      "Blau",
+      "Rot"
+    ],
+    "correct": "Blau"
+  },
+  {
+    "id": "q0010",
+    "category": "Bildungslücke",
+    "type": "schaetzfrage",
+    "question": "Wie alt wurde Gandhi?",
+    "answers": [],
+    "correct": "78"
+  },
+  {
+    "id": "q0011",
+    "category": "Boulevard",
+    "type": "normal",
+    "question": "Welches ist KEIN Kind von Philipp Plein?",
+    "answers": [
+      "Rocket Halo Ocean",
+      "Rouge Sky Galaxy",
+      "Ash Mountain Snow",
+      "Hurricane Thor Thunder"
+    ],
+    "correct": "Ash Mountain Snow"
+  },
+  {
+    "id": "q0012",
+    "category": "Boulevard",
+    "type": "normal",
+    "question": "Das BumBum Eis ist welchem deutschen Promi gewidmet?",
+    "answers": [
+      "Dieter Bohlen",
+      "Boris Becker",
+      "Frank Zander",
+      "Udo Lindenberg"
+    ],
+    "correct": "Boris Becker"
+  },
+  {
+    "id": "q0013",
+    "category": "Boulevard",
+    "type": "normal",
+    "question": "Im Jahr 1999 behauptete ein britischer Mann Robbie Williams wäre entführt worden. Von wem?",
+    "answers": [
+      "Illuminati",
+      "Aliens",
+      "Piraten",
+      "Secret Service"
+    ],
+    "correct": "Aliens"
+  },
+  {
+    "id": "q0014",
+    "category": "Boulevard",
+    "type": "normal",
+    "question": "Das brasilianische Model Tati Neves lobte Justin Bieber wofür?",
+    "answers": [
+      "Fairen Preise für Drogen",
+      "Diebstahl ihres Debütsongs",
+      "frauenfeindlichen Einstellung",
+      "Qualitäten im Bett"
+    ],
+    "correct": "Qualitäten im Bett"
+  },
+  {
+    "id": "q0015",
+    "category": "Boulevard",
+    "type": "normal",
+    "question": "Welcher Schauspieler verpasste dem Moderator bei den Oscars eine Backpfeife?",
+    "answers": [
+      "Johnny Depp",
+      "Will Smith",
+      "Denzel Washington",
+      "Al Pacino"
+    ],
+    "correct": "Will Smith"
+  },
+  {
+    "id": "q0016",
+    "category": "Boulevard",
+    "type": "normal",
+    "question": "Was schenkte Jared Leto bei der Verkörperung des Jokers seinen Kollegen?",
+    "answers": [
+      "Tote Ratte",
+      "Abgetrennter Schweinekopf",
+      "Lebendiges Huhn",
+      "Abgeschnittene Rinderzunge"
+    ],
+    "correct": "Tote Ratte"
+  },
+  {
+    "id": "q0017",
+    "category": "Boulevard",
+    "type": "normal",
+    "question": "Mit welchen Vorwürfen sah sich der Schauspieler Armie Hammer konfrontiert?",
+    "answers": [
+      "Vergewaltigung",
+      "Kannibalismus",
+      "Verstümmelung",
+      "Stalking"
+    ],
+    "correct": "Kannibalismus"
+  },
+  {
+    "id": "q0018",
+    "category": "Boulevard",
+    "type": "normal",
+    "question": "Was widerfuhr Kanye West im Jahr 2025?",
+    "answers": [
+      "Autounfall mit seiner Ex-Frau",
+      "Morddrohung des chilenischen Präsidenten",
+      "Einreiseverweigerung der britischen Regierung",
+      "Konzerthalle ohne ein verkauftes Ticket"
+    ],
+    "correct": "Einreiseverweigerung der britischen Regierung"
+  },
+  {
+    "id": "q0019",
+    "category": "Boulevard",
+    "type": "normal",
+    "question": "Bianca Censori  erschien (Partnerin von Kanye West)  bei den Grammys 2025 in einem Kleid…?",
+    "answers": [
+      "aus Windeln",
+      "aus durchsichtigen Plastik",
+      "aus ausgestopften Tieren",
+      "aus Fotografien von verurteilten Mördern"
+    ],
+    "correct": "aus durchsichtigen Plastik"
+  },
+  {
+    "id": "q0020",
+    "category": "Boulevard",
+    "type": "normal",
+    "question": "Was erwarb Nicholas Cage (Schauspieler) für über 200.000 Dollar",
+    "answers": [
+      "Reliquien von Papst Urban II.",
+      "T-Rex Schädel",
+      "Liebesbriefe von Marylin Monroe",
+      "Zigarrenstummel von Winston Churchill"
+    ],
+    "correct": "T-Rex Schädel"
+  },
+  {
+    "id": "q0021",
+    "category": "Der Mensch",
+    "type": "normal",
+    "question": "Welche Augenfarbe ist für Nachtblindheit besonders empfindlich?",
+    "answers": [],
+    "correct": "Blau"
+  },
+  {
+    "id": "q0022",
+    "category": "Der Mensch",
+    "type": "schaetzfrage",
+    "question": "Wie schnell zirkuliert Blut einmal, durch den kompletten Körper?",
+    "answers": [],
+    "correct": "20 bis 60 Sekunden"
+  },
+  {
+    "id": "q0023",
+    "category": "Der Mensch",
+    "type": "schaetzfrage",
+    "question": "Wie hoch ist die Bisskraft eines Menschen? In Kilogramm",
+    "answers": [],
+    "correct": "80 kg /Quadratzentimeter"
+  },
+  {
+    "id": "q0024",
+    "category": "Der Mensch",
+    "type": "schaetzfrage",
+    "question": "Auf welchem Platz landet der Mensch in Sachen Beißkraft im Vergleich?",
+    "answers": [
+      "Weißer Hai",
+      "Wolf",
+      "Löwe",
+      "Hyäne"
+    ],
+    "correct": "4"
+  },
+  {
+    "id": "q0025",
+    "category": "Der Mensch",
+    "type": "normal",
+    "question": "Auf welche ursprüngliche Eigenschaft deutet das Phänomen “Gänsehaut” hin?",
+    "answers": [
+      "Fell",
+      "Vierbeiner",
+      "Schwimmhäute",
+      "Schuppen"
+    ],
+    "correct": "Fell"
+  },
+  {
+    "id": "q0026",
+    "category": "Der Mensch",
+    "type": "normal",
+    "question": "Welches Körperteil heilt am Schnellsten?",
+    "answers": [],
+    "correct": "Zunge/Mundschleimhaut (Raten)"
+  },
+  {
+    "id": "q0027",
+    "category": "Der Mensch",
+    "type": "schaetzfrage",
+    "question": "Die theoretische Speicherkapazität des Gehirnes (2,5 Petabyte) entspricht wie vielen Jahren ununterbrochenem Fernsehen?",
+    "answers": [],
+    "correct": "Ca. 300  Jahre (Schätzen)"
+  },
+  {
+    "id": "q0028",
+    "category": "Der Mensch",
+    "type": "normal",
+    "question": "Welcher Sinn ist am engsten mit Erinnerungen verbunden?",
+    "answers": [],
+    "correct": "Geruch"
+  },
+  {
+    "id": "q0029",
+    "category": "Der Mensch",
+    "type": "schaetzfrage",
+    "question": "Wie hoch ist der Weltrekord für die längste Zeit ohne Schlaf?",
+    "answers": [],
+    "correct": "264-266 Stunden (Angabe in Stunden)"
+  },
+  {
+    "id": "q0030",
+    "category": "Der Mensch",
+    "type": "schaetzfrage",
+    "question": "Wie alt wurde der älteste Mensch der Welt?",
+    "answers": [],
+    "correct": "122 Jahre (Schätzen)"
+  },
+  {
+    "id": "q0031",
+    "category": "Essen & Trinken",
+    "type": "schaetzfrage",
+    "question": "Wie lange werden tausendjährige Eier in der Regel eingelegt?",
+    "answers": [],
+    "correct": "3 Monate  (Schätzen)"
+  },
+  {
+    "id": "q0032",
+    "category": "Essen & Trinken",
+    "type": "schaetzfrage",
+    "question": "Wann haben die Menschen angefangen Essen zu kochen?",
+    "answers": [],
+    "correct": "Vor 1,9 Millionen Jahren"
+  },
+  {
+    "id": "q0033",
+    "category": "Essen & Trinken",
+    "type": "normal",
+    "question": "In welcher Stadt steht das laut Guinness älteste durchgehend betriebene Restaurant der Welt?",
+    "answers": [
+      "Berlin",
+      "Madrid",
+      "Rom",
+      "Paris"
+    ],
+    "correct": "Madrid"
+  },
+  {
+    "id": "q0034",
+    "category": "Essen & Trinken",
+    "type": "schaetzfrage",
+    "question": "In welchem Jahr wurde das älteste durchgehend betriebene Restaurant eröffnet?",
+    "answers": [],
+    "correct": "1725 (Schätzen)"
+  },
+  {
+    "id": "q0035",
+    "category": "Essen & Trinken",
+    "type": "normal",
+    "question": "Wo wurde der Caesar Salad erfunden?",
+    "answers": [
+      "Tijuana, Mexiko",
+      "Sardinien, Italien",
+      "Las Vegas, USA",
+      "Bangkok, Thailand"
+    ],
+    "correct": "Tijuana, Mexiko"
+  },
+  {
+    "id": "q0036",
+    "category": "Essen & Trinken",
+    "type": "normal",
+    "question": "Woraus bestanden die ältesten Nudeln der Welt?",
+    "answers": [
+      "Weizen",
+      "Roggen",
+      "Quinoa",
+      "Hirse"
+    ],
+    "correct": "Hirse"
+  },
+  {
+    "id": "q0037",
+    "category": "Essen & Trinken",
+    "type": "normal",
+    "question": "Wer ist der größte Exporteur von Lammfleisch?",
+    "answers": [
+      "Kanada",
+      "Argentinien",
+      "Neuseeland",
+      "Südafrika"
+    ],
+    "correct": "Neuseeland"
+  },
+  {
+    "id": "q0038",
+    "category": "Essen & Trinken",
+    "type": "schaetzfrage",
+    "question": "Die ältesten Nudeln der Welt sind von vor…?",
+    "answers": [],
+    "correct": "Ca. 4.000 Jahren"
+  },
+  {
+    "id": "q0039",
+    "category": "Essen & Trinken",
+    "type": "normal",
+    "question": "Welche Stadt beherbergt die meisten Restaurants mit Michelin Sternen?",
+    "answers": [
+      "Tokyo",
+      "Paris",
+      "New York",
+      "Peking"
+    ],
+    "correct": "Tokyo"
+  },
+  {
+    "id": "q0040",
+    "category": "Essen & Trinken",
+    "type": "normal",
+    "question": "Weshalb verschwinden die natürlichen Löcher im Emmentaler?",
+    "answers": [
+      "Ausgestorbene Kuhrasse",
+      "Mikroplastik",
+      "Bessere Hygiene",
+      "Verschwundene Originalrezeptur"
+    ],
+    "correct": "Bessere Hygiene"
+  },
+  {
+    "id": "q0041",
+    "category": "Heiße Kartoffel",
+    "type": "heisse_kartoffel",
+    "question": "Automarke",
+    "topic": "Automarke"
+  },
+  {
+    "id": "q0042",
+    "category": "Heiße Kartoffel",
+    "type": "heisse_kartoffel",
+    "question": "Disneyfiguren",
+    "topic": "Disneyfiguren"
+  },
+  {
+    "id": "q0043",
+    "category": "Heiße Kartoffel",
+    "type": "heisse_kartoffel",
+    "question": "Filme",
+    "topic": "Filme"
+  },
+  {
+    "id": "q0044",
+    "category": "Heiße Kartoffel",
+    "type": "heisse_kartoffel",
+    "question": "Physikalische Einheiten",
+    "topic": "Physikalische Einheiten"
+  },
+  {
+    "id": "q0045",
+    "category": "Heiße Kartoffel",
+    "type": "heisse_kartoffel",
+    "question": "Hauptstädte",
+    "topic": "Hauptstädte"
+  },
+  {
+    "id": "q0046",
+    "category": "Heiße Kartoffel",
+    "type": "heisse_kartoffel",
+    "question": "Spiegel-Beststeller Autoren",
+    "topic": "Spiegel-Beststeller Autoren"
+  },
+  {
+    "id": "q0047",
+    "category": "Heiße Kartoffel",
+    "type": "heisse_kartoffel",
+    "question": "Kleidermarken",
+    "topic": "Kleidermarken"
+  },
+  {
+    "id": "q0048",
+    "category": "Heiße Kartoffel",
+    "type": "heisse_kartoffel",
+    "question": "Politiker",
+    "topic": "Politiker"
+  },
+  {
+    "id": "q0049",
+    "category": "Heiße Kartoffel",
+    "type": "heisse_kartoffel",
+    "question": "Tote Personen (Historisch)",
+    "topic": "Tote Personen (Historisch)"
+  },
+  {
+    "id": "q0050",
+    "category": "Heiße Kartoffel",
+    "type": "heisse_kartoffel",
+    "question": "Sportler",
+    "topic": "Sportler"
+  },
+  {
+    "id": "q0051",
+    "category": "Heiße Kartoffel",
+    "type": "heisse_kartoffel",
+    "question": "Cocktails",
+    "topic": "Cocktails"
+  },
+  {
+    "id": "q0052",
+    "category": "Heiße Kartoffel",
+    "type": "heisse_kartoffel",
+    "question": "Flüsse",
+    "topic": "Flüsse"
+  },
+  {
+    "id": "q0053",
+    "category": "Heiße Kartoffel",
+    "type": "heisse_kartoffel",
+    "question": "Sportclubs",
+    "topic": "Sportclubs"
+  },
+  {
+    "id": "q0054",
+    "category": "In der Natur",
+    "type": "normal",
+    "question": "Was kann der Clownfisch?",
+    "answers": [
+      "Lieder singen",
+      "Seine Farben verändern",
+      "Sein Geschlecht wechseln",
+      "Sich selbst wiederbelben"
+    ],
+    "correct": "Sein Geschlecht wechseln"
+  },
+  {
+    "id": "q0055",
+    "category": "In der Natur",
+    "type": "normal",
+    "question": "Welche Spezies besitzt “Quasi-Wingmans” zur Gewinnung von Partnern",
+    "answers": [
+      "Löwen",
+      "Delfine",
+      "Giraffen",
+      "Haie"
+    ],
+    "correct": "Delfine"
+  },
+  {
+    "id": "q0056",
+    "category": "In der Natur",
+    "type": "normal",
+    "question": "Welche Spezies wurde als Erstes unter internationalen Schutz gestellt?",
+    "answers": [
+      "Pelzrobbe",
+      "Gemeiner Delfin",
+      "Grönlandhai",
+      "Buckelwal"
+    ],
+    "correct": "Pelzrobben"
+  },
+  {
+    "id": "q0057",
+    "category": "In der Natur",
+    "type": "normal",
+    "question": "Was tun Ameisen beim sogenannten Anting?",
+    "answers": [
+      "Entwurzelung von Bäumen",
+      "Trinkwasserverunreinigung von Fressfeinden",
+      "Heilbehandlung von Krähen",
+      "Krieg gegen andere Ameisen"
+    ],
+    "correct": "Heilbehandlung von Krähen"
+  },
+  {
+    "id": "q0058",
+    "category": "In der Natur",
+    "type": "normal",
+    "question": "Welches Tier weist eine besonders hohe Quote von Homosexualität auf?",
+    "answers": [
+      "Giraffen",
+      "Büffel",
+      "Zebras",
+      "Antilopen"
+    ],
+    "correct": "Giraffen"
+  },
+  {
+    "id": "q0059",
+    "category": "In der Natur",
+    "type": "normal",
+    "question": "Welches Tier gilt als heißester Anwärter auf den Titel “Führende Spezies” sollte der Mensch aussterben?",
+    "answers": [],
+    "correct": "Oktopoden (z.B. Krake,  Oktopus)"
+  },
+  {
+    "id": "q0060",
+    "category": "In der Natur",
+    "type": "normal",
+    "question": "Welches Phänomen in der Tierwelt konnten Forscher bis heute nicht gesichert erklären?",
+    "answers": [
+      "Pseudopenis der Hyänen",
+      "Streifen von Zebras",
+      "Flecken von Giraffen",
+      "Mähne des Löwen"
+    ],
+    "correct": "Die Streifen der Zebras"
+  },
+  {
+    "id": "q0061",
+    "category": "In der Natur",
+    "type": "schaetzfrage",
+    "question": "Wo liegt der höchste Baum der Welt?",
+    "answers": [],
+    "correct": "Kalifornien, USA (schätzen)"
+  },
+  {
+    "id": "q0062",
+    "category": "In der Natur",
+    "type": "normal",
+    "question": "Welcher Pflanzengattung gehört die Gewürzvanille an?",
+    "answers": [
+      "Lilie",
+      "Orchidee",
+      "Rose",
+      "Tulpe"
+    ],
+    "correct": "Orchidee"
+  },
+  {
+    "id": "q0063",
+    "category": "In der Natur",
+    "type": "normal",
+    "question": "Was ist das Besondere an der Vanille?",
+    "answers": [
+      "Heutige Vertreter wurden aus einer Pflanze geklont",
+      "Wurzeln reichen bis zum Grundwasser",
+      "In der Blütezeit giftig",
+      "Wird immer noch von Hand bestäubt"
+    ],
+    "correct": "Wird immer noch von Hand bestäubt"
+  },
+  {
+    "id": "q0064",
+    "category": "In der Natur",
+    "type": "normal",
+    "question": "Was ist die größte Wüste der Welt?",
+    "answers": [],
+    "correct": "Antarktis"
+  },
+  {
+    "id": "q0065",
+    "category": "Kultur & Geschichte",
+    "type": "normal",
+    "question": "Adolf Hitler war ein Fan von…?",
+    "answers": [
+      "Tom & Jerry",
+      "Winnetou & Old Shatterhand",
+      "Mickey Maus & Donald Duck",
+      "Wallace & Gromit"
+    ],
+    "correct": "Winnetou & Old Shatterhand"
+  },
+  {
+    "id": "q0066",
+    "category": "Kultur & Geschichte",
+    "type": "normal",
+    "question": "Papst Leo XIII. war im Amt zeitweise…?",
+    "answers": [
+      "Präsident von Liechtenstein",
+      "Werbebotschafter für Kokain",
+      "Hauptdarsteller in einem Bollywoodfilm",
+      "Teilnehmer bei den Olympischen Spielen"
+    ],
+    "correct": "Werbebotschafter für Kokain"
+  },
+  {
+    "id": "q0067",
+    "category": "Kultur & Geschichte",
+    "type": "normal",
+    "question": "Welche der folgenden Aussagen ist wahr?",
+    "answers": [
+      "Krokodile lebten früher auf Bergen",
+      "Der T-Rex jagte Mammuts",
+      "Farne war die ersten Pflanzen",
+      "Haie entstanden vor  Bäumen"
+    ],
+    "correct": "Haie sind älter als Bäume"
+  },
+  {
+    "id": "q0068",
+    "category": "Kultur & Geschichte",
+    "type": "schaetzfrage",
+    "question": "Wie alt war der Rekord, den Michael Phelps 2013  für die meisten Einzelsiege bei Olympia brach?",
+    "answers": [],
+    "correct": "2.168 Jahre (Schätzen)"
+  },
+  {
+    "id": "q0069",
+    "category": "Kultur & Geschichte",
+    "type": "normal",
+    "question": "Was teilten sich der Zar von Russland und der König von Frankreich?",
+    "answers": [
+      "Sattler",
+      "Hofnarr",
+      "Zahnarzt",
+      "Konkubine"
+    ],
+    "correct": "Zahnarzt"
+  },
+  {
+    "id": "q0070",
+    "category": "Kultur & Geschichte",
+    "type": "normal",
+    "question": "Was ist das älteste gefundene Instrument der Welt?",
+    "answers": [
+      "Flöte",
+      "Trommel",
+      "Harfe",
+      "Rassel"
+    ],
+    "correct": "Flöte"
+  },
+  {
+    "id": "q0071",
+    "category": "Kultur & Geschichte",
+    "type": "normal",
+    "question": "Was stellte die niederländische Bevölkerung 1672 mit ihrem Regierungschef an?",
+    "answers": [
+      "Sie lynchten & aßen ihn",
+      "Sie köpften & opferten ihn",
+      "Sie steinigten & kompostierten ihn",
+      "Sie kreuzigten & beteten zu ihm"
+    ],
+    "correct": "Sie lynchten & aßen ihn"
+  },
+  {
+    "id": "q0072",
+    "category": "Kultur & Geschichte",
+    "type": "normal",
+    "question": "Was erhielt die Mumie von Ramses II.  1974?",
+    "answers": [
+      "Haustier",
+      "Sarkophag",
+      "Reisepass",
+      "Krone"
+    ],
+    "correct": "Reisepass"
+  },
+  {
+    "id": "q0073",
+    "category": "Kultur & Geschichte",
+    "type": "schaetzfrage",
+    "question": "Wann wurde das letzte Mal eine Landesflagge geändert? (Stand 04/26)",
+    "answers": [],
+    "correct": "2021 (Schätzen)"
+  },
+  {
+    "id": "q0074",
+    "category": "Kultur & Geschichte",
+    "type": "normal",
+    "question": "Wann lebte eine Person das erste Mal nachweislich in 3 Jahrhunderten?",
+    "answers": [
+      "5. - 7. Jahrhundert",
+      "15.-18. Jahrhundert",
+      "18. - 20. Jahrhundert",
+      "19.-21. Jahrhundert"
+    ],
+    "correct": "18. - 20. Jahrhundert"
+  },
+  {
+    "id": "q0075",
+    "category": "Kultur & Geschichte",
+    "type": "schaetzfrage",
+    "question": "Wann endete die Hanse offiziell?",
+    "answers": [],
+    "correct": "1920"
+  },
+  {
+    "id": "q0076",
+    "category": "Kultur & Geschichte",
+    "type": "schaetzfrage",
+    "question": "Wie hoch ist die offizielle Opferanzahl? Laut der UN bei Tschernobyl?",
+    "answers": [],
+    "correct": "30"
+  },
+  {
+    "id": "q0077",
+    "category": "Medien & Unterhaltung",
+    "type": "schaetzfrage",
+    "question": "Welches Jahr gilt als die Geburtsstunde des Kinos?",
+    "answers": [],
+    "correct": "1895 (Schätzen)"
+  },
+  {
+    "id": "q0078",
+    "category": "Medien & Unterhaltung",
+    "type": "normal",
+    "question": "Wer komponierte die berühmte Tagesschau Titelmelodie?",
+    "answers": [
+      "Herbert Grönemeyer",
+      "Hans Zimmer",
+      "Falco",
+      "Udo Lindenberg"
+    ],
+    "correct": "Hans Zimmer"
+  },
+  {
+    "id": "q0079",
+    "category": "Medien & Unterhaltung",
+    "type": "normal",
+    "question": "Nollywood ist der Name für die Filmlandschaft welches Landes?",
+    "answers": [
+      "Nigeria",
+      "Namibia",
+      "Niederlande",
+      "Norwegen"
+    ],
+    "correct": "Nigeria"
+  },
+  {
+    "id": "q0080",
+    "category": "Medien & Unterhaltung",
+    "type": "schaetzfrage",
+    "question": "Wann wurde die erste Tageszeitung gedruckt?",
+    "answers": [],
+    "correct": "1650 (Schätzen)"
+  },
+  {
+    "id": "q0081",
+    "category": "Medien & Unterhaltung",
+    "type": "normal",
+    "question": "Welches Weihnachtslied wurde als Erstes im Weltall gesendet?",
+    "answers": [
+      "Rudolph the Red-Nosed Reindeer",
+      "Let it Snow",
+      "Silent Night",
+      "Jingle Bells"
+    ],
+    "correct": "Jingle Bells"
+  },
+  {
+    "id": "q0082",
+    "category": "Medien & Unterhaltung",
+    "type": "normal",
+    "question": "Elvis Presley gewann all seine Grammys in welcher Kategorie?",
+    "answers": [
+      "Rock",
+      "Country",
+      "Pop",
+      "Gospel"
+    ],
+    "correct": "Gospel"
+  },
+  {
+    "id": "q0083",
+    "category": "Medien & Unterhaltung",
+    "type": "normal",
+    "question": "Welche/r Autor/in ist laut Guinness die meistübersetzte der Welt?",
+    "answers": [
+      "Jules Verne",
+      "Stephen King",
+      "J.K. Rowling",
+      "Agatha Christie"
+    ],
+    "correct": "Agatha Christie"
+  },
+  {
+    "id": "q0084",
+    "category": "Medien & Unterhaltung",
+    "type": "normal",
+    "question": "Welches Buch wurde nach der Bibel am häufigsten in andere Sprachen übersetzt?",
+    "answers": [
+      "Der kleine Prinz",
+      "Der Koran",
+      "Die Abenteuer des Pinocchio",
+      "Das Kommunistische Manifest"
+    ],
+    "correct": "Der kleine Prinz"
+  },
+  {
+    "id": "q0085",
+    "category": "Medien & Unterhaltung",
+    "type": "normal",
+    "question": "Was ist der inflationsbereinigt erfolgreichste Film aller Zeiten?",
+    "answers": [
+      "Vom Winde verweht",
+      "Titanic",
+      "Avatar - Aufbruch nach Pandora",
+      "Avengers Endgame"
+    ],
+    "correct": "Vom Winde verweht"
+  },
+  {
+    "id": "q0086",
+    "category": "Medien & Unterhaltung",
+    "type": "normal",
+    "question": "Das erste Video auf YouTube handelt von…?",
+    "answers": [
+      "Musikvideo",
+      "Rede des US Präsidenten",
+      "Sightseeing-Tour",
+      "Zoobesuch"
+    ],
+    "correct": "Zoobesuch"
+  },
+  {
+    "id": "q0087",
+    "category": "Religion & Glaube",
+    "type": "normal",
+    "question": "Was wird in der Heilig-Kreuz Kapelle verehrt?",
+    "answers": [
+      "Nackter Papst",
+      "Christus mit Kopfschuss",
+      "Zerbrochenes Kreuz",
+      "Geköpfter Hahn"
+    ],
+    "correct": "Christus mit Kopfschuss"
+  },
+  {
+    "id": "q0088",
+    "category": "Religion & Glaube",
+    "type": "normal",
+    "question": "Was wurde von einem Papst etabliert?",
+    "answers": [
+      "Flitterwochen",
+      "Brautschleier",
+      "Verlobungsring",
+      "Trennungsunterhalt"
+    ],
+    "correct": "Verlobungsring"
+  },
+  {
+    "id": "q0089",
+    "category": "Religion & Glaube",
+    "type": "schaetzfrage",
+    "question": "Das Bauende der Sagrada Familie ist für 2026 geplant. Wie lang war die Bauzeit?",
+    "answers": [],
+    "correct": "144 Jahre (Schätzen)"
+  },
+  {
+    "id": "q0090",
+    "category": "Religion & Glaube",
+    "type": "schaetzfrage",
+    "question": "Wann lebte Siddartha Gautama der Begründer des Buddhismus.",
+    "answers": [],
+    "correct": "Ca. 563 - 483 v.Chr. (Schätzen)"
+  },
+  {
+    "id": "q0091",
+    "category": "Religion & Glaube",
+    "type": "normal",
+    "question": "Was geschah im Jahre 897 n. Chr. mit Papst Formosus?",
+    "answers": [
+      "Ausgegraben & vor Gericht gestellt",
+      "Gefangen & Lebendig im Meer versenkt",
+      "Gehängt & Verspeist",
+      "Versklavt & Verkauft"
+    ],
+    "correct": "Ausgegraben & vor Gericht gestellt"
+  },
+  {
+    "id": "q0092",
+    "category": "Religion & Glaube",
+    "type": "normal",
+    "question": "1665 rief ein jüdischer Gelehrter sich zum Messias aus, scharte Anhänger um sich und tat dann was?",
+    "answers": [
+      "Selbstkreuzigung",
+      "Ermordung eines Papstes",
+      "Gründung eines Königreichs",
+      "Konversion zum Islam"
+    ],
+    "correct": "Konversion zum Islam"
+  },
+  {
+    "id": "q0093",
+    "category": "Religion & Glaube",
+    "type": "normal",
+    "question": "Um eine US-Wahl zu manipulieren tat die Rajneeshes-Bewegung was?",
+    "answers": [
+      "Bombendrohung gegenüber Wahllokalen",
+      "Infizierung von Salatbars mit Salmonellen",
+      "Entführung von Polizeibeamten",
+      "Unterstützung des lokalen Drogenhandels"
+    ],
+    "correct": "Infizierung von Salatbars mit Salmonellen"
+  },
+  {
+    "id": "q0094",
+    "category": "Religion & Glaube",
+    "type": "schaetzfrage",
+    "question": "Wie viele Mitglieder hat die katholische Kirche in Deutschland? (2024)",
+    "answers": [],
+    "correct": "19,8 Millionen (schätzen)"
+  },
+  {
+    "id": "q0095",
+    "category": "Religion & Glaube",
+    "type": "schaetzfrage",
+    "question": "Um wie viel Prozent ist die Mitgliederanzahl der Katholischen Kirche in  Deutschland seit 2.000 gesunken? (2024)",
+    "answers": [],
+    "correct": "26,2 %"
+  },
+  {
+    "id": "q0096",
+    "category": "Religion & Glaube",
+    "type": "schaetzfrage",
+    "question": "Wie viele Mitglieder hat die evangelische Kirche in Deutschland? (2025)",
+    "answers": [],
+    "correct": "17,4 Millionen schätzen"
+  },
+  {
+    "id": "q0097",
+    "category": "Typisch Deutsch",
+    "type": "normal",
+    "question": "Wie viele Tage Urlaubsanspruch besitzt der Bundeskanzler?",
+    "answers": [
+      "0",
+      "10",
+      "20",
+      "30"
+    ],
+    "correct": "0"
+  },
+  {
+    "id": "q0098",
+    "category": "Typisch Deutsch",
+    "type": "normal",
+    "question": "Was sind die drei häufigsten Buchstaben in der deutschen Sprache?",
+    "answers": [
+      "A,I,R",
+      "E,N,I",
+      "E,S,N",
+      "N,I,R"
+    ],
+    "correct": "E,N,I"
+  },
+  {
+    "id": "q0099",
+    "category": "Typisch Deutsch",
+    "type": "schaetzfrage",
+    "question": "Der DFB gewann viermal die WM. Wann?",
+    "answers": [],
+    "correct": "1954,1974,1990,2014"
+  },
+  {
+    "id": "q0100",
+    "category": "Typisch Deutsch",
+    "type": "normal",
+    "question": "Was hat die UNESCO als immaterielles Kulturerbe Deutschlands gewürdigt?",
+    "answers": [
+      "Oktoberfest",
+      "Brotvielfalt",
+      "Reinheitsgebot",
+      "Senfherstellung"
+    ],
+    "correct": "Brotvielfalt"
+  },
+  {
+    "id": "q0101",
+    "category": "Typisch Deutsch",
+    "type": "normal",
+    "question": "Was steht im §27 (6) StVO?",
+    "answers": [
+      "Auf Brücken darf nicht im Gleichschritt marschiert werden",
+      "Auf Bürgersteigen gilt Rechts vor Links",
+      "Auf einer Verkehrsinsel darf nicht geparkt werden",
+      "Auf Zebrastreifen darf nicht gerannt werden"
+    ],
+    "correct": "Auf Brücken darf nicht im Gleichschritt marschiert werden"
+  },
+  {
+    "id": "q0102",
+    "category": "Typisch Deutsch",
+    "type": "normal",
+    "question": "Wie heißt das Nomen von seriös laut Duden richtig?",
+    "answers": [
+      "Seriosität",
+      "Seriösität",
+      "Seriositat",
+      "Seriösitat"
+    ],
+    "correct": "Seriosität"
+  },
+  {
+    "id": "q0103",
+    "category": "Typisch Deutsch",
+    "type": "schaetzfrage",
+    "question": "Notier die 5 beliebtesten Reiseländer der Deutschen (außer Deutschland und Skandinavien)",
+    "answers": [],
+    "correct": "Spanien, Italien, Türkei, Griechenland, Frankreich"
+  },
+  {
+    "id": "q0104",
+    "category": "Typisch Deutsch",
+    "type": "normal",
+    "question": "Welches Fleisch darf man in Deutschland grundsätzlich legal verzehren?",
+    "answers": [
+      "Löwe",
+      "Nilpferd",
+      "Giraffe",
+      "Elefant"
+    ],
+    "correct": "Giraffe"
+  },
+  {
+    "id": "q0105",
+    "category": "Typisch Deutsch",
+    "type": "normal",
+    "question": "Welches Tier mit dem Namen “Dachhase” war bis in die 1960er auf Speisekarten zu finden?",
+    "answers": [
+      "Marder",
+      "Maus",
+      "Hund",
+      "Katze"
+    ],
+    "correct": "Katze"
+  },
+  {
+    "id": "q0106",
+    "category": "Typisch Deutsch",
+    "type": "normal",
+    "question": "Welche der folgenden TV-Köche ergatterte NIE einen Michelin Stern?",
+    "answers": [
+      "Johann Lafer",
+      "Tim Mälzer",
+      "Nelson Müller",
+      "Tim Raue"
+    ],
+    "correct": "Tim Mälzer"
+  },
+  {
+    "id": "q0107",
+    "category": "Um den Globus",
+    "type": "normal",
+    "question": "Welches europäische Land verbietet den Konsum von Hunden & Katzen zum Eigenbedarf NICHT.",
+    "answers": [
+      "Niederlande",
+      "Dänemark",
+      "Ungarn",
+      "Schweiz"
+    ],
+    "correct": "Schweiz"
+  },
+  {
+    "id": "q0108",
+    "category": "Um den Globus",
+    "type": "schaetzfrage",
+    "question": "Wie viel Prozent der Weltbevölkerung leben in Asien?",
+    "answers": [],
+    "correct": "59%"
+  },
+  {
+    "id": "q0109",
+    "category": "Um den Globus",
+    "type": "schaetzfrage",
+    "question": "Wie viel Prozent der Weltbevölkerung leben in Afrika?",
+    "answers": [],
+    "correct": "19%"
+  },
+  {
+    "id": "q0110",
+    "category": "Um den Globus",
+    "type": "normal",
+    "question": "Welches Land verfügt über die meisten Pyramiden?",
+    "answers": [
+      "Mexiko",
+      "Ägypten",
+      "Sudan",
+      "Kambodscha"
+    ],
+    "correct": "Sudan"
+  },
+  {
+    "id": "q0111",
+    "category": "Um den Globus",
+    "type": "normal",
+    "question": "Was besitzt Saudi-Arabien NICHT?",
+    "answers": [
+      "Wälder",
+      "Flüsse",
+      "Berge",
+      "Täler"
+    ],
+    "correct": "Flüsse"
+  },
+  {
+    "id": "q0112",
+    "category": "Um den Globus",
+    "type": "normal",
+    "question": "Welches ist die einzig geteilte Hauptstadt der Welt?",
+    "answers": [
+      "Neu-Dehli, Indien",
+      "Nikosia, Zypern",
+      "Ankara, Türkei",
+      "Lima, Peru"
+    ],
+    "correct": "Nikosia, Zypern"
+  },
+  {
+    "id": "q0113",
+    "category": "Um den Globus",
+    "type": "normal",
+    "question": "Ein russisches Gericht hat die Firma Twitch zu was verurteilt?",
+    "answers": [
+      "Mehr Geld, als es auf der Welt gibt",
+      "Entschuldigungsbrief an Putin",
+      "Livestream für Staatspropaganda",
+      "Betriebsverlegung von den USA nach Russland"
+    ],
+    "correct": "Mehr Geld, als es auf der Welt gibt"
+  },
+  {
+    "id": "q0114",
+    "category": "Um den Globus",
+    "type": "normal",
+    "question": "Wie nennt man den abgelegensten Ort der Erde?",
+    "answers": [
+      "Point Zero",
+      "Point Lonesome",
+      "Point Nemo",
+      "Point Easter"
+    ],
+    "correct": "Point Nemo"
+  },
+  {
+    "id": "q0115",
+    "category": "Um den Globus",
+    "type": "normal",
+    "question": "Zwischen welchen beiden Ländern verläuft die längste Landesgrenze der Welt?",
+    "answers": [
+      "USA & Kanada",
+      "Russland & Kasachstan",
+      "Indien & Pakistan",
+      "China & Mongolei"
+    ],
+    "correct": "USA & Kanada"
+  },
+  {
+    "id": "q0116",
+    "category": "Um den Globus",
+    "type": "normal",
+    "question": "Welche beiden Länder haben die meisten Nachbarländer weltweit?",
+    "answers": [
+      "Indien & Pakistan",
+      "Deutschland & Tschechien",
+      "Russland & China",
+      "Zentralafrikanische Republik & Dem. Rep. Kongo"
+    ],
+    "correct": "Russland & China"
+  },
+  {
+    "id": "q0117",
+    "category": "Wenn nicht jetzt, wann dann?",
+    "type": "schaetzfrage",
+    "question": "Wann gab es die ersten Münzen?",
+    "answers": [],
+    "correct": "650-600 v.Chr."
+  },
+  {
+    "id": "q0118",
+    "category": "Wenn nicht jetzt, wann dann?",
+    "type": "schaetzfrage",
+    "question": "Wann wurde die erste E-Mail der Welt verschickt?",
+    "answers": [],
+    "correct": "1971"
+  },
+  {
+    "id": "q0119",
+    "category": "Wenn nicht jetzt, wann dann?",
+    "type": "schaetzfrage",
+    "question": "Wann wurde das erste Foto gemacht?",
+    "answers": [],
+    "correct": "1826"
+  },
+  {
+    "id": "q0120",
+    "category": "Wenn nicht jetzt, wann dann?",
+    "type": "schaetzfrage",
+    "question": "Wann wurde die erste hörbare menschliche Tonaufnahme gemacht?",
+    "answers": [],
+    "correct": "1860"
+  },
+  {
+    "id": "q0121",
+    "category": "Wenn nicht jetzt, wann dann?",
+    "type": "schaetzfrage",
+    "question": "Wann wurde die älteste bekannte Kundenbeschwerde der Welt geschrieben?",
+    "answers": [],
+    "correct": "1.750 v.Chr."
+  },
+  {
+    "id": "q0122",
+    "category": "Wenn nicht jetzt, wann dann?",
+    "type": "schaetzfrage",
+    "question": "Wann wurde das erste Produkt mit einem Barcode an einer Kasse gescannt?",
+    "answers": [],
+    "correct": "1974"
+  },
+  {
+    "id": "q0123",
+    "category": "Wenn nicht jetzt, wann dann?",
+    "type": "schaetzfrage",
+    "question": "Wann besuchte das erste bestätigte Objekt aus einem anderen Sternsystem unser Sonnensystem?",
+    "answers": [],
+    "correct": "2017"
+  },
+  {
+    "id": "q0124",
+    "category": "Wenn nicht jetzt, wann dann?",
+    "type": "schaetzfrage",
+    "question": "Wann wurde der erste Wecker gebaut, der wirklich zu einer festen Uhrzeit klingelte?",
+    "answers": [],
+    "correct": "1787"
+  },
+  {
+    "id": "q0125",
+    "category": "Wenn nicht jetzt, wann dann?",
+    "type": "schaetzfrage",
+    "question": "Wann erhielt ein Restaurant in Deutschland zum ersten Mal 3 Michelin-Sterne?",
+    "answers": [],
+    "correct": "1979"
+  },
+  {
+    "id": "q0126",
+    "category": "Wenn nicht jetzt, wann dann?",
+    "type": "schaetzfrage",
+    "question": "Wann wurden die ersten Nobelpreise verliehen?",
+    "answers": [],
+    "correct": "1901"
+  },
+  {
+    "id": "q0127",
+    "category": "Wenn nicht jetzt, wann dann?",
+    "type": "schaetzfrage",
+    "question": "Wann wurde die erste Ampel der Welt aufgestellt?",
+    "answers": [],
+    "correct": "1868"
+  },
+  {
+    "id": "q0128",
+    "category": "Wer bin Ich",
+    "type": "wer_bin_ich",
+    "question": "Wer bin ich?",
+    "solution": "Marylin Monroe",
+    "clues": [
+      "Ich wurde am 01.06.1926 in Los Angeles geboren",
+      "Ich war Schauspielerin und Produzentin",
+      "Mein bürgerlicher Name lautet Norma Jean Baker",
+      "Ich sang Happy Birthday für John F. Kennedy",
+      "Bei meiner berühmtesten Pose drücke ich mein Kleid herunter"
+    ]
+  },
+  {
+    "id": "q0129",
+    "category": "Wer bin Ich",
+    "type": "wer_bin_ich",
+    "question": "Wer bin ich?",
+    "solution": "Mona Lisa",
+    "clues": [
+      "Ich existiere seit über 500 Jahren",
+      "Mein Wohnort säumt eine Pyramide",
+      "Mein Lächeln ist weltberühmt",
+      "Ich wohne derzeit in Paris",
+      "Mein Erschaffer malte auch Jesus"
+    ]
+  },
+  {
+    "id": "q0130",
+    "category": "Wer bin Ich",
+    "type": "wer_bin_ich",
+    "question": "Wer bin ich?",
+    "solution": "Relativitätstheorie",
+    "clues": [
+      "Mich gibt es seit dem frühen 20. Jahrhundert",
+      "Mein Erfinder war Deutscher",
+      "Ich behaupte, dass nichts schneller als Licht sein kann",
+      "Ich konnte meinem Erfinder keinen Nobelpreis bescheren",
+      "Ich bin eine Formel"
+    ]
+  },
+  {
+    "id": "q0131",
+    "category": "Wer bin Ich",
+    "type": "wer_bin_ich",
+    "question": "Wer bin ich?",
+    "solution": "Mount Everest",
+    "clues": [
+      "Mein ursprünglicher Name ist Chomolungma oder Sagarmatha",
+      "Ich bin in Asien beheimatet",
+      "Ich bin für den Tod von über 300 Menschen verantwortlich",
+      "Erst 1953 konnte ich bezwungen werden",
+      "Auf mir stehen Menschen Schlange"
+    ]
+  },
+  {
+    "id": "q0132",
+    "category": "Wer bin Ich",
+    "type": "wer_bin_ich",
+    "question": "Wer bin ich?",
+    "solution": "Mickey Maus",
+    "clues": [
+      "Mein erster Auftritt war 1928 in einem Kurzfilm",
+      "Ich sollte ursprünglich Mortimer heißen",
+      "Ich bin das Aushängeschild einer Firma",
+      "Ich trage rote Shorts und gelbe Schuhe",
+      "Zu meinen Freunden gehört eine cholerische Ente"
+    ]
+  },
+  {
+    "id": "q0133",
+    "category": "Wer bin Ich",
+    "type": "wer_bin_ich",
+    "question": "Wer bin ich?",
+    "solution": "Angela Merkel",
+    "clues": [
+      "Ich bin in Hamburg geboren und der DDR aufgewachsen",
+      "Ich bin promovierte Physikerin",
+      "Ich war die erste Frau in meiner späteren Position",
+      "Mein Markenzeichen ist ein Dreieck",
+      "Ein ganzes Land nennt mich Mutti"
+    ]
+  },
+  {
+    "id": "q0134",
+    "category": "Wer bin Ich",
+    "type": "wer_bin_ich",
+    "question": "Wer bin ich?",
+    "solution": "Queen Elizabeth II.",
+    "clues": [
+      "Ich wurde 1926 geboren",
+      "Ich wurde während des zweiten Weltkrieges zur Mechanikerin ausgebildet",
+      "Über 70 Jahre war ich in meinem Amt tätig",
+      "Ich hatte eine Vorliebe für Corgis",
+      "Ich wohnte im Buckingham Palace"
+    ]
+  },
+  {
+    "id": "q0135",
+    "category": "Wer bin Ich",
+    "type": "wer_bin_ich",
+    "question": "Wer bin ich?",
+    "solution": "Eiffelturm",
+    "clues": [
+      "Ich wurde 1889 erschaffen",
+      "Die Meisten wollten, dass ich wieder abgebaut werde",
+      "Ich beherberge ein Restaurant und eine geheime Wohnung",
+      "Ich bin nach meinem Erbauer benannt",
+      "Ich stehe in Paris"
+    ]
+  },
+  {
+    "id": "q0136",
+    "category": "Wer bin Ich",
+    "type": "wer_bin_ich",
+    "question": "Wer bin ich?",
+    "solution": "Kim Jong-Un",
+    "clues": [
+      "Ich wurde in den 1980ern geboren",
+      "Als Kind ging ich in der Schweiz zur Schule",
+      "Ich bin Basketballfan",
+      "Ich regiere ein asiatisches Land",
+      "Mein Atomprogramm ist weltweit bekannt"
+    ]
+  },
+  {
+    "id": "q0137",
+    "category": "Wer bin Ich",
+    "type": "wer_bin_ich",
+    "question": "Wer bin ich?",
+    "solution": "Wetten, dass…?",
+    "clues": [
+      "Ich startete in den 1980er Jahren",
+      "Bei mir waren unter anderem Michael Jackson, Madonna und viele weitere zu sehen",
+      "Es geht um Menschen und deren ungewöhnliche Fähigkeiten",
+      "Ein Unfall läutete meinen Untergang ein",
+      "Ich wurde lange Zeit von Thomas Gottschalk moderiert"
+    ]
+  },
+  {
+    "id": "q0138",
+    "category": "Wissenschaft & Technik",
+    "type": "schaetzfrage",
+    "question": "Wo liegt die theoretisch erreichbare Höchstgrenze eines Berges auf der Erde?",
+    "answers": [],
+    "correct": "10.000m (Schätzen)"
+  },
+  {
+    "id": "q0139",
+    "category": "Wissenschaft & Technik",
+    "type": "schaetzfrage",
+    "question": "Um wie viele Zentimeter können Astronauten im Weltall wachsen?",
+    "answers": [],
+    "correct": "5 - 8 Centimeter"
+  },
+  {
+    "id": "q0140",
+    "category": "Wissenschaft & Technik",
+    "type": "normal",
+    "question": "Wofür wurde die erste Webcam eingesetzt?",
+    "answers": [
+      "Überwachung von Staatsfeinden",
+      "Beobachten einer Kaffeemaschine",
+      "Diplomatie im Kalten Krieg",
+      "Kontrolle von Biberdämmen"
+    ],
+    "correct": "Beobachten der Kaffeemaschine"
+  },
+  {
+    "id": "q0141",
+    "category": "Wissenschaft & Technik",
+    "type": "normal",
+    "question": "Was stimmt über den Blitz?",
+    "answers": [
+      "Erwischt NIE Vögel",
+      "Für das Wachstum von Kaffeebohnen essenziell",
+      "Kann durch Spaltung von Atomen natürliche Miniatomkraftwerke erzeugen",
+      "Heißer als die Sonnenoberfläche"
+    ],
+    "correct": "Heißer als die Sonnenoberfläche"
+  },
+  {
+    "id": "q0142",
+    "category": "Wissenschaft & Technik",
+    "type": "normal",
+    "question": "Was stimmt über die Venus?",
+    "answers": [
+      "Ein Tag dauert länger als ein Jahr",
+      "Es regnet Eisen",
+      "Riesige Ozeane",
+      "Zwischen Mars und Erde"
+    ],
+    "correct": "Ein Tag dauert länger als ein Jahr"
+  },
+  {
+    "id": "q0143",
+    "category": "Wissenschaft & Technik",
+    "type": "schaetzfrage",
+    "question": "Wie hoch war die größte je gemessene Welle?",
+    "answers": [],
+    "correct": "19m"
+  },
+  {
+    "id": "q0144",
+    "category": "Wissenschaft & Technik",
+    "type": "normal",
+    "question": "Wofür erhielt Albert Einstein den Nobelpreis?",
+    "answers": [
+      "Relativitätstheorie",
+      "Photoeffekt",
+      "Entdeckung der Radioaktivität",
+      "Gravitationswellen"
+    ],
+    "correct": "Photoeffekt"
+  },
+  {
+    "id": "q0145",
+    "category": "Wissenschaft & Technik",
+    "type": "schaetzfrage",
+    "question": "Um wie viel ist der Gewinn von Porsche von 2025 auf 2026 gesunken?",
+    "answers": [],
+    "correct": "91%"
+  },
+  {
+    "id": "q0146",
+    "category": "Wissenschaft & Technik",
+    "type": "normal",
+    "question": "Was stimmt über Marie Curie?",
+    "answers": [
+      "Erste Person mit drei Nobelpreisen",
+      "Gebürtige Deutsche",
+      "Notizbücher noch immer radioaktiv",
+      "Verurteilte Mörderin"
+    ],
+    "correct": "Notizbücher noch immer radioaktiv"
+  },
+  {
+    "id": "q0147",
+    "category": "Wissenschaft & Technik",
+    "type": "normal",
+    "question": "Welche Farbe hat ein Sonnenuntergang auf dem Mars?",
+    "answers": [
+      "Blau",
+      "Rot",
+      "Gelb",
+      "Grün"
+    ],
+    "correct": "Blau"
+  },
+  {
+    "id": "q0148",
+    "category": "Wissenschaft & Technik",
+    "type": "normal",
+    "question": "Als was kann Nitroglycerin verwendet werden?",
+    "answers": [],
+    "correct": "Herzmedikament"
+  }
+]

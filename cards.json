@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ich_bin_dran",
+    "name": "Ich bin dran!",
+    "effect": "Du beantwortest die Frage selbst. Richtig: +1 Punkt. Falsch: 0 Punkte.",
+    "weight": 35,
+    "image": "ich-bin-dran.png"
+  },
+  {
+    "id": "du_bist_dran",
+    "name": "Du bist dran!",
+    "effect": "Wähle einen Mitspieler und tippe vorher richtig/falsch. Du bekommst +1, wenn deine Einschätzung stimmt. Der Mitspieler bekommt +1 bei richtiger Antwort.",
+    "weight": 25,
+    "image": "du-bist-dran.png"
+  },
+  {
+    "id": "ihr_seid_dran",
+    "name": "Ihr seid dran!",
+    "effect": "Alle anderen beantworten die Frage. Tippe vorher, ob die Mehrheit richtig oder falsch liegt. Bei richtigem Tipp: +1 für dich. Bei falschem Tipp: +1 für alle anderen.",
+    "weight": 20,
+    "image": "ihr-seid-dran.png"
+  },
+  {
+    "id": "fragenhagel",
+    "name": "Fragenhagel!",
+    "effect": "Wähle dich oder einen Mitspieler. Diese Person beantwortet 3 Fragen der Kategorie. Richtig: +1, falsch: -1.",
+    "weight": 12,
+    "image": "fragenhagel.png"
+  },
+  {
+    "id": "direktes_duell",
+    "name": "Direktes Duell!",
+    "effect": "Wähle einen Mitspieler. Ihr beantwortet gleichzeitig 3 Fragen. Gewinner bekommt seine erspielten Punkte, Verlierer verliert die Differenz.",
+    "weight": 8,
+    "image": "direktes-duell.png"
+  }
+]
