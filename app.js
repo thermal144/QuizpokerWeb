@@ -21,11 +21,9 @@ function log(t){S.log.unshift(t);}
 function score(i,n){S.players[i].score+=n; log(`${S.players[i].name}: ${n>0?'+':''}${n} Punkt(e)`);}
 async function init(){
   try{
-    S.questions=await fetch('data/questions.json').then(r=>r.json());
-    S.cards=await fetch('data/cards.json').then(r=>r.json());
+    S.questions=await fetch('questions.json').then(r=>r.json());
+    S.cards=await fetch('cards.json').then(r=>r.json());
   }catch(e){
-    // Beim Öffnen per Doppelklick (file://) blockieren viele Browser fetch().
-    // Deshalb laden wir dieselben Daten zusätzlich aus js/data.js als Fallback.
     S.questions=window.QUIZPOKER_QUESTIONS||[];
     S.cards=window.QUIZPOKER_CARDS||[];
   }
@@ -41,8 +39,6 @@ function normalizeQuestions(list){
   return (list||[]).map(q=>{
     q={...q};
     const combined=`${q.category||''} ${q.question||''} ${q.correct||''} ${q.answer||''}`.toLowerCase();
-    // Zuverlässige Markierung: Im JSON sollte type:"schaetzfrage" stehen.
-    // Fallback für alte Exporte: Alles mit "(Schätzen)" wird automatisch als Schätzfrage erkannt.
     if(q.type!=='schaetzfrage' && /(schätz|schaetz|schätzen|schaetzen)/i.test(combined)) q.type='schaetzfrage';
     if(q.category==='Wenn nicht jetzt, wann dann?') q.type='schaetzfrage';
     return q;
@@ -53,7 +49,6 @@ function noSpecial(q){ return !isSpecial(q); }
 function playerOptions(excludeCurrent=true){return S.players.map((p,i)=>excludeCurrent&&i===S.current?'':`<option value="${i}">${p.name}</option>`).join('')}
 function playerChecks(name,excludeCurrent=true){return S.players.map((p,i)=>excludeCurrent&&i===S.current?'':`<label class="check"><input type="checkbox" name="${name}" value="${i}"> ${p.name}</label>`).join('')}
 function checked(name){return [...document.querySelectorAll(`input[name="${name}"]:checked`)].map(x=>+x.value)}
-
 
 function firebaseConfigured(){
   const f=window.QUIZPOKER_FIREBASE;
@@ -71,7 +66,7 @@ function roomRef(code=ROOM){ return DB.collection('quizpoker_rooms').doc(String(
 function code(){ return Math.random().toString(36).slice(2,6).toUpperCase(); }
 function renderHome(){
   const ready=initFirebase();
-  app.innerHTML=`<div class="wrap"><section class="hero"><h1>Quizpoker</h1><p>Lokaler Prototyp + Multiplayer-Basis über Firebase.</p></section><section class="panel"><h2>Start</h2><div class="row"><div class="field"><h3>Lokal testen</h3><p class="muted">Funktioniert ohne Internet und ohne Firebase.</p><button id="local">Lokales Spiel starten</button></div><div class="field"><h3>Multiplayer</h3>${ready?`<label>Dein Name</label><input id="onlineName" placeholder="Name"><label>Raumcode</label><input id="roomCode" placeholder="z. B. ABCD"><button id="createRoom">Raum erstellen</button> <button class="secondary" id="joinRoom">Raum beitreten</button>`:`<p class="muted">Firebase ist noch nicht aktiviert. Trage deine Daten in <b>js/firebase-config.js</b> ein und setze <b>firebaseEnabled: true</b>.</p>`}</div></div></section></div>`;
+  app.innerHTML=`<div class="wrap"><section class="hero"><h1>Quizpoker</h1><p>Lokaler Prototyp + Multiplayer-Basis über Firebase.</p></section><section class="panel"><h2>Start</h2><div class="row"><div class="field"><h3>Lokal testen</h3><p class="muted">Funktioniert ohne Internet und ohne Firebase.</p><button id="local">Lokales Spiel starten</button></div><div class="field"><h3>Multiplayer</h3>${ready?`<label>Dein Name</label><input id="onlineName" placeholder="Name"><label>Raumcode</label><input id="roomCode" placeholder="z. B. ABCD"><button id="createRoom">Raum erstellen</button> <button class="secondary" id="joinRoom">Raum beitreten</button>`:`<p class="muted">Firebase ist noch nicht aktiviert. Trage deine Daten in <b>firebase-config.js</b> ein und setze <b>firebaseEnabled: true</b>.</p>`}</div></div></section></div>`;
   $('#local').onclick=()=>renderSetup();
   if(ready){
     $('#createRoom').onclick=createOnlineRoom;
@@ -166,7 +161,7 @@ function renderShell(center=''){app.innerHTML=`<div class="wrap"><div class="lay
 function renderGame(){
   const q=S.currentQ; const img=categoryImages[q.category]||`${slug(q.category)}.png`; const special=isSpecial(q);
   if(special){ startSpecial(); return; }
-  renderShell(`<div class="panel center"><h2>Gezogene Quizkarte</h2><div class="category-card draw-anim"><img class="card-img" src="assets/cards/categories/${img}" onerror="this.style.display='none'"></div><p class="big">${q.category}</p><p>${active().name}, spiele eine Handkarte aus.</p><div class="hand">${active().hand.map((c,i)=>`<button class="mini hand-anim" style="animation-delay:${i*70}ms" data-i="${i}"><img src="assets/cards/handcards/${c.image}"><b>${c.name}</b></button>`).join('')}</div></div>`);
+  renderShell(`<div class="panel center"><h2>Gezogene Quizkarte</h2><div class="category-card draw-anim"><img class="card-img" src="${img}" onerror="this.style.display='none'"></div><p class="big">${q.category}</p><p>${active().name}, spiele eine Handkarte aus.</p><div class="hand">${active().hand.map((c,i)=>`<button class="mini hand-anim" style="animation-delay:${i*70}ms" data-i="${i}"><img src="${c.image}"><b>${c.name}</b></button>`).join('')}</div></div>`);
   document.querySelectorAll('.mini').forEach(b=>b.onclick=()=>playCard(+b.dataset.i));
 }
 function playCard(i){S.selectedCard=active().hand[i];active().hand.splice(i,1);S.pendingDraws[S.current]=(S.pendingDraws[S.current]||0)+1;log(`${active().name} spielt „${S.selectedCard.name}“.`);if(S.selectedCard.id==='ich_bin_dran') askSingle(S.current,true);else if(S.selectedCard.id==='du_bist_dran') chooseTarget('Wer soll antworten?',(target,pred)=>askSingle(target,true,S.current,pred));else if(S.selectedCard.id==='ihr_seid_dran') predictMajority();else if(S.selectedCard.id==='fragenhagel') chooseTarget('Wer bekommt den Fragenhagel?',(target)=>fragenhagel(target));else if(S.selectedCard.id==='direktes_duell') chooseTarget('Gegen wen duellierst du dich?',(target)=>duell(target));}
@@ -183,7 +178,7 @@ function norm(x){return String(x||'').trim().toLowerCase().replace(/[.!?]/g,'')}
 function chooseTarget(title,cb){renderShell(`<div class="panel"><h2>${title}</h2>${S.players.map((p,i)=>i===S.current?'':`<button class="target" data-i="${i}">${p.name}</button>`).join(' ')}<div id="pred" style="margin-top:15px"></div></div>`);document.querySelectorAll('.target').forEach(b=>b.onclick=()=>{let t=+b.dataset.i;if(S.selectedCard.id==='du_bist_dran'){$('#pred').innerHTML=`<h3>Deine Einschätzung:</h3><button id="pr">${S.players[t].name} liegt richtig</button> <button id="pf">${S.players[t].name} liegt falsch</button>`;$('#pr').onclick=()=>cb(t,'richtig');$('#pf').onclick=()=>cb(t,'falsch');}else cb(t);});}
 function predictMajority(){renderShell(`<div class="panel"><h2>Mehrheit einschätzen</h2><p>Glaubst du, die Mehrheit der anderen liegt richtig oder falsch?</p><button id="mr">Mehrheit richtig</button> <button id="mf">Mehrheit falsch</button></div>`);$('#mr').onclick=()=>askAll('richtig');$('#mf').onclick=()=>askAll('falsch');}
 function askAll(pred){let others=S.players.map((_,i)=>i).filter(i=>i!==S.current);let results=[];function step(){if(!others.length){let corrects=results.filter(Boolean).length;let majority=corrects>results.length/2?'richtig':'falsch';if(majority===pred) score(S.current,1); else S.players.forEach((p,i)=>{if(i!==S.current)score(i,1)});nextAction();return;}let i=others.shift();askCheck(i,(c)=>{results.push(c);step();});}step();}
-function fragenhagel(target){let qs=S.questions.filter(q=>q.category===S.currentQ.category&&noSpecial(q));let chosen=[takeQuestion(S.currentQ.category,true),takeQuestion(S.currentQ.category,true),takeQuestion(S.currentQ.category,true)];let idx=0;function step(){if(idx>=3){nextAction();return;}askSingle(target,false,null,null,(c)=>{score(target,c?0:-1);idx++;step();},chosen[idx]);}step();}
+function fragenhagel(target){let chosen=[takeQuestion(S.currentQ.category,true),takeQuestion(S.currentQ.category,true),takeQuestion(S.currentQ.category,true)];let idx=0;function step(){if(idx>=3){nextAction();return;}askSingle(target,false,null,null,(c)=>{score(target,c?0:-1);idx++;step();},chosen[idx]);}step();}
 function duell(target){let qs=[takeQuestion(S.currentQ.category,true),takeQuestion(S.currentQ.category,true),takeQuestion(S.currentQ.category,true)];let a=0,b=0,idx=0;function askP(player,cb){askCheck(player,(c)=>cb(c),qs[idx]);}function step(){if(idx>=3){if(a>b){score(S.current,a);score(target,-(a-b));}else if(b>a){score(target,b);score(S.current,-(b-a));}else log('Duell endet unentschieden.');nextAction();return;}askP(S.current,c1=>{if(c1)a++;askP(target,c2=>{if(c2)b++;idx++;step();});});}step();}
 function startSpecial(){
 const q=S.currentQ;
@@ -199,7 +194,7 @@ upd();
 $('#nextclue').onclick=()=>{if(clue<5)clue++;upd();};
 $('#done').onclick=()=>{let winners=checked('winner');let preds=checked('pred');if(!winners.length)return alert('Bitte mindestens einen richtigen Spieler auswählen.');let pts=Math.max(1,6-Math.max(1,clue));winners.forEach(w=>score(w,pts));if(preds.some(p=>winners.includes(p)))score(S.current,pts);nextAction();};
 }
-else { // schaetzfrage / Wenn nicht jetzt, wann dann?
+else {
 renderShell(`<div class="panel"><h2>${q.category==='Wenn nicht jetzt, wann dann?'?'Wenn nicht jetzt, wann dann?':'Schätzfrage'}</h2><label>${active().name}s Tipp: Wer liegt richtig oder am nächsten dran?</label><select id="pred">${S.players.map((p,i)=>i===S.current?'':`<option value="${i}">${p.name}</option>`).join('')}</select><div class="question"><h2>${q.question}</h2><p>Antwort: <b>${q.correct}</b></p></div><label>Wer lag richtig oder gleich nah dran?</label><div id="winners">${S.players.map((p,i)=>i===S.current?'':`<label class="check"><input type="checkbox" value="${i}"> ${p.name}</label>`).join('')}</div><button id="ok">Auswerten</button></div>`);
 $('#ok').onclick=()=>{let pred=+$('#pred').value;let winners=[...document.querySelectorAll('#winners input:checked')].map(x=>+x.value);if(!winners.length)return alert('Bitte mindestens einen richtigen/nächsten Spieler auswählen.');if(winners.includes(pred)){score(S.current,1);winners.forEach(i=>score(i,1));}else winners.forEach(i=>score(i,2));nextAction();};
 }}
