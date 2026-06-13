@@ -1,15 +1,12 @@
-// Firebase-Konfiguration
-// 1. In Firebase eine Web-App anlegen
-// 2. Den config-Block hier einfügen
-// 3. firebaseEnabled auf true setzen
 window.QUIZPOKER_FIREBASE = {
-  firebaseEnabled: false,
+  firebaseEnabled: true,
   config: {
-    apiKey: "DEIN_API_KEY",
-    authDomain: "DEIN_PROJEKT.firebaseapp.com",
-    projectId: "DEIN_PROJEKT",
-    storageBucket: "DEIN_PROJEKT.appspot.com",
-    messagingSenderId: "DEINE_SENDER_ID",
-    appId: "DEINE_APP_ID"
+    apiKey: "AIzaSyDLY5dtK6ONou36yPAddsfYgrIoywfvXao",
+    authDomain: "quizpoker-b3390.firebaseapp.com",
+    projectId: "quizpoker-b3390",
+    storageBucket: "quizpoker-b3390.firebasestorage.app",
+    messagingSenderId: "518572151083",
+    appId: "1:518572151083:web:8ef9c144c518a07ba1356e",
+    measurementId: "G-58P6W60LGJ"
   }
 };
